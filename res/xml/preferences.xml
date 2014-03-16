@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+	
+<PreferenceScreen xmlns:android="http://schemas.andriod.com/apk/res/android">
+	<EditTextPreference android:title="Default Flucard SSID"
+		                android:key="ssid_default"
+						android:defaultValue="FLUCARD_for_PENTAX"
+	                	android:summary="Factory SSID"></EditTextPreference>
+	<EditTextPreference android:title="Default Flucard Password"
+		                android:key="pass_default"
+						android:defaultValue="12345678"
+		                android:summary="Factory Password"></EditTextPreference>
+	<EditTextPreference android:title="Alternate 1 SSID"
+	                	android:key="ssid_alt1"
+	                 	android:summary="Alternate 1 SSID"></EditTextPreference>
+	<EditTextPreference android:title="Alternate 1 Password"
+		                android:key="pass_alt1"
+	                	android:summary="Alternate 1 Password"></EditTextPreference>
+	<EditTextPreference android:title="Alternate 2 SSID"
+	                	android:key="ssid_alt2"
+		                android:summary="Alternate 2 SSID"></EditTextPreference>
+	<EditTextPreference android:title="Alternate 2 Password"
+	                 	android:key="pass_alt2"
+	                 	android:summary="Alternate 2 Password"></EditTextPreference>
+	<CheckBoxPreference android:title="Auto Connect"
+		                android:defaultValue="true"
+						android:key="autoconnect"
+	                	android:summary="Attempt to Connect to WIFI"></CheckBoxPreference>
+</PreferenceScreen>
